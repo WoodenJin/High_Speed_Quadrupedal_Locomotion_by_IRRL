@@ -1,0 +1,8 @@
+*/__pychche__
+
+/.vscode/*
+/build/*
+
+/IRRL/FlexibleRobotRaisimGym/build/*
+/IRRL/FlexibleRobotRaisimGym/dist/*
+/IRRL/FlexibleRobotRaisimGym/FlexibleRobot.egg-info/*

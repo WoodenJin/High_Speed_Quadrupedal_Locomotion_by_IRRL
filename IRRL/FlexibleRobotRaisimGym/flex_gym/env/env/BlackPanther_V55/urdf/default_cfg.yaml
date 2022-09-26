@@ -1,0 +1,62 @@
+seed: 1
+record_video: True
+
+environment:
+  seedd: 1
+  render: True
+  num_envs: 200
+  num_threads: 120
+  simulation_dt: 0.00025
+  control_dt: 0.002
+  max_time: 1.5
+  abad: 0.0
+  period: 0.2
+  lam: 0.5
+  stand_height: 0.28
+  up_height: 0.08
+  down_height: 0.00
+  gait_step: 0.15
+  Manual: False
+  Terrain: False
+  Filter: False
+  Crutial: False
+  Camera: False
+  StochasticDynamics: True
+  HeightVariable: False
+  TimeBasedContact: False
+  ManualTraj: True
+  MotorDynamics: False
+  ObsFilter: False
+  WILDCAT: True
+  ForceDisturbance: False
+  Convert2Torque: False
+  GaitType: 1
+  Freq: 30
+  MotorMaxTorque: 18.0
+  MotorCriticalSpeed: 100
+  MotorMaxSpeed: 200
+  AbadRatio: 1.0
+  Stiffness: 40.0
+  Stiffness_Low: 40.0
+  Damping: 1.0
+  Spring_Stiff: 10000
+  Spring_Damp: 0.1
+  terminalRewardCoeff: -1.0
+  EndEffectorRewardCoeff: 0.0
+  BodyPosRewardCoeff: 0.05
+  BodyAttitudeRewardCoeff: 0.05
+  JointRewardCoeff: 0.1
+  VelRewardCoeff: 0.6
+  TorqueCoeff: 0.3
+  ContactCoeff: 0.0
+  Vx: 5.0
+  Vy: 0.0
+  Omega: 1.0
+  AbadOffset: 0.00
+  LeanFront: 0.00
+  LeanHind: -0.00
+  ActionNoise: 0.00
+  ObsNoise: 2.0
+  CubeNum: 6
+  FPS: 60.0
+  RefTraj: /home/wooden/raisim_workspace/raisimGym/scripts/data/2020-09-11 22_57_19_c_axis_ref_traj_filtered.csv

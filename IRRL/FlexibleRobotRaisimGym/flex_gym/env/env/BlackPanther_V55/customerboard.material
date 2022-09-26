@@ -1,0 +1,18 @@
+material woodenboard
+{
+    technique
+    {
+        pass
+        {
+             ambient 1 1 1 0.0
+             diffuse 1 1 1 0.0
+             emissive 0 0 0 0
+
+            texture_unit
+            {
+                texture checker_wooden.png
+                scale 0.1 0.1
+            }
+        }
+    }
+}
